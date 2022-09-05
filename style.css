@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#canvas{
+    border:  2px solid rgb(158, 4, 4);
+}
+
+#color{
+    padding: 0px;
+    border: none;
+    background: none;
+    width: 44px;
+    height: 44px;
+}
+
+#thickness{
+    padding: 10px;
+}
+
+.paint_container{
+    width: 50%;   
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+.controls{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  
+}
