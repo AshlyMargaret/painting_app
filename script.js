@@ -52,9 +52,9 @@ function draw(e){
 }
 
 canvas.addEventListener("mousedown",paintingStart);
-
 canvas.addEventListener("mousemove",draw);
-canvas.addEventListener("touchmove",draw);
-
 canvas.addEventListener("mouseup",paintingEnd);
 
+canvas.addEventListener("touchstart",paintingStart);
+canvas.addEventListener("touchmove",draw);
+canvas.addEventListener("touchend",paintingEnd);
